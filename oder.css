@@ -1,0 +1,130 @@
+body {
+    background: url(images/6.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+
+.picture {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    color:bisque;
+    border: black solid 3px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#result {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    color:rgb(234, 228, 228);
+    font-weight: bolder;
+    
+    
+}
+
+img {
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.header {
+    
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+   
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+   
+    cursor: pointer;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;    
+    margin-top: 150px;
+    margin-left: 200px;
+   
+   
+}
+
+.nav_bar_two {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+
+
+.footer a {
+    display: inline-block;
+    color: white;
+    outline: none;
+    
+}
+
+.nav_bar_one {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    cursor: pointer;
+}
+
+a:hover {
+    color:  rgb(5, 5, 107);
+}
+
+.fb {
+    background-image: url(images/fb_gray.png);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.insta {
+    background-image: url(images/insta_gray.png);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.tube {
+    background-image: url(images/youtube_gray.png);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.fb:hover {
+    background-image: url(images/fb.png);
+}
+
+.insta:hover {
+    background-image: url(images/insta.png);
+}
+
+.tube:hover {
+    background-image: url(images/youtube.png);
+}
